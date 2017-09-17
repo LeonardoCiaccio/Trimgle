@@ -1,0 +1,523 @@
+{	
+
+	"this_lang" : {
+
+		"message" : "it_IT"
+
+	}
+	
+	,"name" : {
+
+		"message" : "Trimgle"
+
+	}
+	
+	,"des" : {
+	
+		"message" : "Monitor web page e json, ottieni il controllo sulle informazioni"
+	
+	}
+	
+	,"menu_monitor_page" : {
+	
+		"message" : "Monitora tutta la pagina"
+	
+	}
+	
+	,"all_contents" : {
+	
+		"message" : "PAGINA"
+	
+	}
+	
+	,"all_contents_sub" : {
+	
+		"message" : "nessun elemento in specifico"
+	
+	}
+	
+	,"one_content" : {
+	
+		"message" : "ELEMENTO"
+	
+	}
+	
+	,"one_content_sub" : {
+	
+		"message" : "specifico, mirato"
+	
+	}
+	
+	,"collection_content" : {
+	
+		"message" : "COLLEZIONE"
+	
+	}
+	
+	,"collection_content_sub" : {
+	
+		"message" : "raccoglie informazioni"
+	
+	}
+	
+	,"home" : {
+	
+		"message" : "Home"
+	
+	}
+	
+	,"about" : {
+	
+		"message" : "Informazioni"
+	
+	}
+	
+	,"options" : {
+	
+		"message" : "Opzioni"
+	
+	}
+	
+	,"page" : {
+	
+		"message" : "Pagina"
+	
+	}
+	
+	,"edit" : {
+	
+		"message" : "Modifica"
+	
+	}
+	
+	,"contact" : {
+	
+		"message" : "Contatti"
+	
+	}
+	
+	,"official_page" : {
+	
+		"message" : "Pagina ufficiale"
+	
+	}
+	
+	,"disclaimer" : {
+	
+		"message" : "Disclaimer"
+	
+	}
+	
+	,"disclaimer_sub" : {
+	
+		"message" : "ToS, privacy e credits"
+	
+	}
+	
+	,"share" : {
+	
+		"message" : "Condividi"
+	
+	}
+	
+	,"anon_stats" : {
+	
+		"message" : "Aiutaci a migliorare Trimgle inviando statistiche anonime"
+	
+	}
+	
+	,"search" : {
+	
+		"message" : "Cerca"
+	
+	}
+	
+	,"search_sub" : {
+	
+		"message" : "in tutte le categorie"
+	
+	}
+	
+	,"title" : {
+	
+		"message" : "Titolo"
+	
+	}
+	
+	,"description" : {
+	
+		"message" : "Descrizione"
+	
+	}
+	
+	,"check_every" : {
+	
+		"message" : "Controlla ogni :"
+	
+	}
+	
+	,"time_5m" : {
+	
+		"message" : "5m"
+	
+	}
+	
+	,"time_15m" : {
+	
+		"message" : "15m"
+	
+	}
+	
+	,"time_30m" : {
+	
+		"message" : "30m"
+	
+	}
+	
+	,"time_1h" : {
+	
+		"message" : "1h"
+	
+	}
+	
+	,"level_check" : {
+	
+		"message" : "Cambiamenti :"
+	
+	}
+	
+	,"level_0" : {
+	
+		"message" : "Qualsiasi"
+	
+	}
+	
+	,"level_10" : {
+	
+		"message" : "Minimi ( >10% )"
+	
+	}
+	
+	,"level_30" : {
+	
+		"message" : "Medi ( >30% )"
+	
+	}
+	
+	,"level_50" : {
+	
+		"message" : "Alti ( >50% )"
+	
+	}
+	
+	,"ping_webhook" : {
+	
+		"message" : "Webhook"
+	
+	}
+	
+	,"webhook_p1" : {
+	
+		"message" : "Puoi inviare un ping ad una qualsiasi pagina web ed automatizzare alcune informazioni, puoi usare i seguenti marcatori :"
+	
+	}
+	
+	,"webhook_p2" : {
+	
+		"message" : "{%l} il link, {%t} il titolo del link"
+	
+	}
+	
+	,"webhook_p3" : {
+	
+		"message" : "{%p} se si vuole controllare solo una porzione di testo"
+	
+	}
+	
+	,"webhook_p4" : {
+	
+		"message" : "Quindi se stiamo controllando un link ( o una serie di link ) potremmo inserire un indirizzo di questo tipo :"
+	
+	}
+	
+	,"webhook_p5" : {
+	
+		"message" : "http://miosito.miodominio/?link={%l}&titolo={%t}"
+	
+	}
+	
+	,"webhook_p6" : {
+	
+		"message" : "http://miosito.miodominio/?post={%p}"
+	
+	}
+	
+	,"webhook_p7" : {
+	
+		"message" : "Il ping viene inviato per ogni link inserito ( uno per riga ) e per ogni nuovo elemento controllato"
+	
+	}
+	
+	,"explore" : {
+	
+		"message" : "Esplora"
+	
+	}
+	
+	,"connection_error" : {
+	
+		"message" : "Errore di connessione"
+	
+	}
+	
+	,"no_signature" : {
+	
+		"message" : "Non ho trovato i marcatori, normale se stai monitorando un motore di ricerca oppure potrebbe essere protetto da Cloudflare ( codice 503 )"
+	
+	}
+	
+	,"no_update" : {
+	
+		"message" : "Non sono riuscito ad aggiornare il database"
+	
+	}
+	
+	,"no_results" : {
+	
+		"message" : "Ho i marcatori ma non i risultati"
+	
+	}
+	
+	,"new_link" : {
+	
+		"message" : "Link univoco"
+	
+	}
+	
+	,"new_link_collection" : {
+	
+		"message" : "Link generico"
+	
+	}
+	
+	,"new_text" : {
+	
+		"message" : "Testo univoco"
+	
+	}
+	
+	,"new_text_collection" : {
+	
+		"message" : "Testo generico"
+	
+	}
+	
+	,"item_add" : {
+	
+		"message" : "Aggiunto correttamente a Trimgle"
+	
+	}
+	
+	,"item_not_add" : {
+	
+		"message" : "Problemi, aggiorna la pagina e riprova !"
+	
+	}
+	
+	,"no_http" : {
+	
+		"message" : "Per il momento possiamo controllare solo indirizzi 'http' stiamo lavorando per ampliare il servizio ad altri protocolli"
+	
+	}
+	
+	,"info_link" : {
+	
+		"message" : "Passa il mouse sopra il link che desideri controllare, solo i link validi possono essere monitorati"
+	
+	}
+	
+	,"info_text" : {
+	
+		"message" : "Passa il mouse sopra il testo che desideri controllare"
+	
+	}
+	
+	,"info_json" : {
+	
+		"message" : "Passa il mouse sopra l'elemento che desideri controllare"
+	
+	}
+	
+	,"problem_inact" : {
+	
+		"message" : "Problema inatteso"
+	
+	}
+	
+	,"ask_sure" : {
+	
+		"message" : "Doppio click se vuoi rimuovermi !"
+	
+	}
+	
+	,"title_not_news" : {
+	
+		"message" : "Aggiornamenti"
+	
+	}
+	
+	,"mex_not_news" : {
+	
+		"message" : "Ci sono nuovi aggiornamenti da visionare"
+	
+	}
+	
+	,"title_not_review" : {
+	
+		"message" : "Problemi"
+	
+	}
+	
+	,"mex_not_review" : {
+	
+		"message" : "Ci sono dei problemi, ti consiglio di controllare"
+	
+	}
+	
+	,"no_link" : {
+	
+		"message" : "Il link di questa pagina ha problemi :"
+	
+	}
+	
+	,"no_exe_link" : {
+	
+		"message" : "Sei gia in modalità 'testo', se vuoi controllare i 'link' aggiorna la pagina e riesegui il comando"
+	
+	}
+	
+	,"no_exe_text" : {
+	
+		"message" : "Sei gia in modalità 'link', se vuoi controllare il 'testo' aggiorna la pagina e riesegui il comando"
+	
+	}
+	
+	,"no_exe" : {
+	
+		"message" : "Riaggiorno la pagina così puoi eseguire questo comando visto che era già iniziato un controllo !"
+	
+	}
+	
+	,"every" : {
+	
+		"message" : "Ogni"
+	
+	}
+	
+	,"problems" : {
+	
+		"message" : "Problemi"
+	
+	}
+	
+	,"updates" : {
+	
+		"message" : "Aggiornamenti"
+	
+	}
+	
+	,"no_context" : {
+	
+		"message" : "Non puoi eseguire Trimgle su questa pagina"
+	
+	}
+	
+	,"not_good" : {
+	
+		"message" : "Questa pagina non è idonea al servizio scelto per Trimgle"
+	
+	}
+	
+	,"popup_news" : {
+	
+		"message" : "Ci sono delle"
+	
+	}
+	
+	,"news" : {
+	
+		"message" : "novità"
+	
+	}
+	
+	,"no_jobs" : {
+	
+		"message" : "aggiungi nuove pagine"
+	
+	}
+	
+	,"load_this_content" : {
+	
+		"message" : "Preparo la pagina, attendi ..."
+	
+	}
+	
+	,"json" : {
+	
+		"message" : "JSON"
+	
+	}
+	
+	,"expert_prompt" : {
+	
+		"message" : "Inserisci il selettore jQuery per questa pagina, ad esempio :\r\nhtml > div > div > a.myclass"
+	
+	}
+	
+	,"no_selector" : {
+	
+		"message" : "Il selettore jQuery inserito non produce risultati, esco !"
+	
+	}
+	
+	,"expert" : {
+	
+		"message" : "Esperto"
+	
+	}
+	
+	,"cache" : {
+	
+		"message" : "Cache"
+	
+	}
+	
+	,"good_cache" : {
+	
+		"message" : "'Cache' attivata per questa sessione !"
+	
+	}
+	
+	,"source_code" : {
+	
+		"message" : "Source Code"
+	
+	}
+
+}  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,517 @@
+{	
+
+	"this_lang" : {
+
+		"message" : "en_EN"
+
+	}
+	
+	,"name" : {
+
+		"message" : "Trimgle"
+
+	}
+	
+	,"des" : {
+	
+		"message" : "Web page and JSON monitor, get control over information"
+	
+	}
+	
+	,"menu_monitor_page" : {
+	
+		"message" : "Monitor the entire page"
+	
+	}
+	
+	,"all_contents" : {
+	
+		"message" : "PAGE"
+	
+	}
+	
+	,"all_contents_sub" : {
+	
+		"message" : "no specific elements"
+	
+	}
+	
+	,"one_content" : {
+	
+		"message" : "ELEMENT"
+	
+	}
+	
+	,"one_content_sub" : {
+	
+		"message" : "specific, targeted"
+	
+	}
+	
+	,"collection_content" : {
+	
+		"message" : "COLLECTION"
+	
+	}
+	
+	,"collection_content_sub" : {
+	
+		"message" : "collects information"
+	
+	}
+	
+	,"home" : {
+	
+		"message" : "Home"
+	
+	}
+	
+	,"about" : {
+	
+		"message" : "Information"
+	
+	}
+	
+	,"options" : {
+	
+		"message" : "Options"
+	
+	}
+	
+	,"page" : {
+	
+		"message" : "Page"
+	
+	}
+	
+	,"edit" : {
+	
+		"message" : "Edit"
+	
+	}
+	
+	,"contact" : {
+	
+		"message" : "Contacts"
+	
+	}
+	
+	,"official_page" : {
+	
+		"message" : "Official Page"
+	
+	}
+	
+	,"disclaimer" : {
+	
+		"message" : "Disclaimer"
+	
+	}
+	
+	,"disclaimer_sub" : {
+	
+		"message" : "ToS, privacy e credits"
+	
+	}
+	
+	,"share" : {
+	
+		"message" : "Share"
+	
+	}
+	
+	,"anon_stats" : {
+	
+		"message" : "Help us improve Trimgle by sending anonymous statistics"
+	
+	}
+	
+	,"search" : {
+	
+		"message" : "Search"
+	
+	}
+	
+	,"search_sub" : {
+	
+		"message" : "in all categories"
+	
+	}
+	
+	,"title" : {
+	
+		"message" : "Title"
+	
+	}
+	
+	,"description" : {
+	
+		"message" : "Description"
+	
+	}
+	
+	,"check_every" : {
+	
+		"message" : "Check every :"
+	
+	}
+	
+	,"time_5m" : {
+	
+		"message" : "5m"
+	
+	}
+	
+	,"time_15m" : {
+	
+		"message" : "15m"
+	
+	}
+	
+	,"time_30m" : {
+	
+		"message" : "30m"
+	
+	}
+	
+	,"time_1h" : {
+	
+		"message" : "1h"
+	
+	}
+	
+	,"level_check" : {
+	
+		"message" : "Changes :"
+	
+	}
+	
+	,"level_0" : {
+	
+		"message" : "Any"
+	
+	}
+	
+	,"level_10" : {
+	
+		"message" : "Min ( >10% )"
+	
+	}
+	
+	,"level_30" : {
+	
+		"message" : "Mid ( >30% )"
+	
+	}
+	
+	,"level_50" : {
+	
+		"message" : "Max ( >50% )"
+	
+	}
+	
+	,"ping_webhook" : {
+	
+		"message" : "Webhook"
+	
+	}
+	
+	,"webhook_p1" : {
+	
+		"message" : "You can send a ping to any web page and automate some information, you can use the following markers :"
+	
+	}
+	
+	,"webhook_p2" : {
+	
+		"message" : "{%l} the link, {%t} title of link"
+	
+	}
+	
+	,"webhook_p3" : {
+	
+		"message" : "{%p} if you want to check only a portion of text"
+	
+	}
+	
+	,"webhook_p4" : {
+	
+		"message" : "So if we are checking a link (or a series of links) we could enter an address of this type :"
+	
+	}
+	
+	,"webhook_p5" : {
+	
+		"message" : "http://mysite.mydomain/?link={%l}&title={%t}"
+	
+	}
+	
+	,"webhook_p6" : {
+	
+		"message" : "http://mysite.mydomain/?post={%p}"
+	
+	}
+	
+	,"webhook_p7" : {
+	
+		"message" : "The ping is sent for each inserted link (one per line) and for each new item checked"
+	
+	}
+	
+	,"explore" : {
+	
+		"message" : "Explore"
+	
+	}
+	
+	,"connection_error" : {
+	
+		"message" : "Connection error"
+	
+	}
+	
+	,"no_signature" : {
+	
+		"message" : "I did not find the markers, normal if you are monitoring a search engine or it could be protected by Cloudflare ( code 503 )"
+	
+	}
+	
+	,"no_update" : {
+	
+		"message" : "I was unable to update the database"
+	
+	}
+	
+	,"no_results" : {
+	
+		"message" : "I have markers but not the results"
+	
+	}
+	
+	,"new_link" : {
+	
+		"message" : "Unique link"
+	
+	}
+	
+	,"new_link_collection" : {
+	
+		"message" : "Generic link"
+	
+	}
+	
+	,"new_text" : {
+	
+		"message" : "Unique text"
+	
+	}
+	
+	,"new_text_collection" : {
+	
+		"message" : "Generic text"
+	
+	}
+	
+	,"item_add" : {
+	
+		"message" : "Added correctly to Trimgle"
+	
+	}
+	
+	,"item_not_add" : {
+	
+		"message" : "Problems, refresh the page and try again !"
+	
+	}
+	
+	,"no_http" : {
+	
+		"message" : "For the moment we can only check ' HTTP ' addresses we are working to expand the service to other protocols"
+	
+	}
+	
+	,"info_link" : {
+	
+		"message" : "Move mouse over the link you want to check, only valid links can be monitored"
+	
+	}
+	
+	,"info_text" : {
+	
+		"message" : "Move mouse over the text you want to check"
+	
+	}
+	
+	,"info_json" : {
+	
+		"message" : "Move mouse over the item you want to check"
+	
+	}
+	
+	,"problem_inact" : {
+	
+		"message" : "Unexpected error"
+	
+	}
+	
+	,"ask_sure" : {
+	
+		"message" : "Double click to remove me !"
+	
+	}
+	
+	,"title_not_news" : {
+	
+		"message" : "Updates"
+	
+	}
+	
+	,"mex_not_news" : {
+	
+		"message" : "New updates"
+	
+	}
+	
+	,"title_not_review" : {
+	
+		"message" : "Problems"
+	
+	}
+	
+	,"mex_not_review" : {
+	
+		"message" : "There are problems, I recommend you check"
+	
+	}
+	
+	,"no_link" : {
+	
+		"message" : "The link to this page has problems :"
+	
+	}
+	
+	,"no_exe_link" : {
+	
+		"message" : "You are already in ' text ' mode, if you want to check the ' link ' refresh the page and rerun the command"
+	
+	}
+	
+	,"no_exe_text" : {
+	
+		"message" : "You are already in ' link ' mode, if you want to check the ' text ' refresh the page and rerun the command"
+	
+	}
+	
+	,"no_exe" : {
+	
+		"message" : "Reupdate the page so you can run this command since you had already started a check !"
+	
+	}
+	
+	,"every" : {
+	
+		"message" : "Every"
+	
+	}
+	
+	,"problems" : {
+	
+		"message" : "Problems"
+	
+	}
+	
+	,"updates" : {
+	
+		"message" : "Updates"
+	
+	}
+	
+	,"no_context" : {
+	
+		"message" : "You can't run Trimgle on this page"
+	
+	}
+	
+	,"not_good" : {
+	
+		"message" : "This page is not suitable for selected Trimgle service"
+	
+	}
+	
+	,"popup_news" : {
+	
+		"message" : "There are"
+	
+	}
+	
+	,"news" : {
+	
+		"message" : "news"
+	
+	}
+	
+	,"no_jobs" : {
+	
+		"message" : "add new pages"
+	
+	}
+	
+	,"load_this_content" : {
+	
+		"message" : "I prepare the page, wait ..."
+	
+	}
+	
+	,"json" : {
+	
+		"message" : "JSON"
+	
+	}
+	
+	,"expert_prompt" : {
+	
+		"message" : "Type jQuery selector, for example : \r\nhtml > div > div > a.myclass"
+	
+	}
+	
+	,"no_selector" : {
+	
+		"message" : "Have no item with this jQuery selector !"
+	
+	}
+	
+	,"cache" : {
+	
+		"message" : "Cache"
+	
+	}
+	
+	,"good_cache" : {
+	
+		"message" : "'Cache' activated for this session !"
+	
+	}
+	
+	,"source_code" : {
+	
+		"message" : "Source Code"
+	
+	}
+
+}  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
