@@ -36,7 +36,7 @@
 		}
 	;
 	
-	setTimeout( _checkNews ,( ( 1000 * 60 ) * 15 ) );
+	setInterval( _checkNews ,( ( 1000 * 60 ) * 15 ) );
 	
 	_checkNews();
 	
