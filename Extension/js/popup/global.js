@@ -525,7 +525,7 @@ var
 			
 			,context : "#home"
 			
-			,exclusive : true
+			,exclusive : true 
 			
 			,closable : false
 
@@ -533,13 +533,23 @@ var
 
 			,hoverable : false
 
-			,html  : chrome.i18n.getMessage( "popup_news" ) + " <a href='" + sets.lastNews + "' target='_blank'>" + chrome.i18n.getMessage( "news" ) + "</a> !"
+			,html  : chrome.i18n.getMessage( "popup_news" ) + " <a href='" + sets.lastNews + "' target='_blank' class='reset-news'>" + chrome.i18n.getMessage( "news" ) + "</a> !"
 			
-		} ).popup( "show" );
-		
-		sets.oldNews = sets.lastNews;
-		
-		$.Trimgle.settings( sets );
+			,onShow : function(){
+			
+				$( ".reset-news" ).on( "click", function( ev ){
+				
+					sets.oldNews = sets.lastNews;
+					
+					$.Trimgle.settings( sets );
+                    
+                    ev.stopPropagation();
+				
+				} );
+			
+			}
+			
+		} ).popup( "show" ); 
 		
 	}
 

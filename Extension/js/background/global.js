@@ -17,31 +17,37 @@ var
 
 		}
 
-		if( !sets.notification )return false;
+		if( sets.notification === true ){
+		
+			chrome.notifications.create( "newelements", {
 
-		chrome.notifications.create( "newelements", {
+				 type	: "basic"
 
-			 type	: "basic"
+				,iconUrl: "img/icon.48.png"
 
-			,iconUrl: "img/icon.48.png"
+				,title	: chrome.i18n.getMessage( "title_not_news" )
 
-			,title	: chrome.i18n.getMessage( "title_not_news" )
+				,message: chrome.i18n.getMessage( "mex_not_news" )
 
-			,message: chrome.i18n.getMessage( "mex_not_news" )
+				,requireInteraction : false
 
-			,requireInteraction : false
+			}, function( notificationId ){
 
-		 }, function( notificationId ){
+			// --> TODO
+
+
+
+			} );
 
 		// --> http://soundbible.com/2158-Text-Message-Alert-5.html
 
 			var mysound = new Audio( "audio/noty1.mp3" );
 
 			mysound.volume = 0.2;
-			
-			mysound.play();
 
-		});
+			mysound.play();
+		
+		}
 
 	}
 
@@ -57,21 +63,27 @@ var
 
 		}
 
-		if( !sets.notification )return false;
+		if( sets.notification === true ){
+		
+			chrome.notifications.create( "newreviews", {
 
-		chrome.notifications.create( "newreviews", {
+				 type	: "basic"
 
-			 type	: "basic"
+				,iconUrl: "img/icon.48.png"
 
-			,iconUrl: "img/icon.48.png"
+				,title	: chrome.i18n.getMessage( "title_not_review" )
 
-			,title	: chrome.i18n.getMessage( "title_not_review" )
+				,message: chrome.i18n.getMessage( "mex_not_review" )
 
-			,message: chrome.i18n.getMessage( "mex_not_review" )
+				,requireInteraction : false
 
-			,requireInteraction : false
+			}, function( notificationId ){
 
-		 }, function( notificationId ){
+			// --> TODO
+
+
+
+			} );
 
 		// --> http://soundbible.com/2155-Text-Message-Alert-2.html
 
@@ -80,8 +92,8 @@ var
 			mysound.volume = 0.2;
 
 			mysound.play();
-
-		});
+		
+		}
 
 	}
 ;
