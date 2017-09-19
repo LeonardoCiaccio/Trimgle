@@ -141,14 +141,14 @@ var
 			$.each( item.newdata, function( index2, item2 ){
 				
 				var ele = ( item2.link != "" && item2.title != "" )
-								  ? "<a href='" + item2.link + "' target='_blank'>" + item2.title + "</a>"
+								  ? "<a x-href='" + item2.link + "' x-exposure='0'>" + item2.title + "</a>"
 								  : ( item2.text != "" ) ? item2.text : ""
 								  ;
 						
 				if( ele != "" )$cloned.find( ".bulleted.list" ).append( "<div class='item'>" + ele + "</div>" );
 				
 			} );
-			
+            
 			$cloned.find( "img.avatar" )
 				.attr( "src", item.favicon )
 				.attr( signwatch, item[ "#" ] );
@@ -156,7 +156,23 @@ var
 			if( $list.html() != "" )$list.prepend( "<div class=\"ui divider\"></div>" );
 
 			$list.prepend( $cloned.html() );
-
+			            
+            $list.find( ".bulleted.list .item a[x-exposure]" ).not( ".exposed" ).on( "click", function( ev ){
+                
+                chrome.tabs.create( {
+                    
+                     url : $( this ).attr( "x-href" ) + ""
+                    
+                    ,active : false
+                    
+                } );
+                
+                ev.stopPropagation();
+                
+                return false;
+                
+            } ).addClass( "exposed" );
+            
 			$cloned.remove();
 
 		} );
@@ -345,7 +361,7 @@ var
 				$.each( item.newest, function( index, value ){
 
 					var ele = ( value.link != "" && value.title != "" )
-							  ? "<a href='" + value.link + "' target='_blank'>" + value.title + "</a>"
+							  ? "<a x-href='" + value.link + "' x-exposure='0'>" + value.title + "</a>"
 							  : ( value.text != "" ) ? value.text : ""
 							  ;
 
@@ -353,6 +369,24 @@ var
 
 				} );
 
+            // --> Routine identica in popup.js per gli updates
+                
+                $( "#bullet-list .item a[x-exposure]" ).not( ".exposed" ).on( "click", function( ev ){
+                
+                    chrome.tabs.create( {
+
+                         url : $( this ).attr( "x-href" ) + ""
+
+                        ,active : false
+
+                    } );
+
+                    ev.stopPropagation();
+
+                    return false;
+
+                } ).addClass( "exposed" );
+                
 				_changePage( "#explore", function(){
 
 					$( "#popup" ).attr( "cxx", "explore" );

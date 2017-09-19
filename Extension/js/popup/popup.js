@@ -92,7 +92,7 @@
 	
 	$( ".ui.radio.checkbox" ).checkbox();
 	
-	$("#page-edit .saving .saving.updates").on( "click", function( evt ){
+	$( "#page-edit .saving .saving.updates" ).on( "click", function( evt ){
 		
 		var 
 			 $self = $( this )
@@ -259,14 +259,32 @@
 					$.each( upitem.newest, function( index, value ){
 						
 						var ele = ( value.link != "" && value.title != "" )
-								  ? "<a href='" + value.link + "' target='_blank'>" + value.title + "</a>"
+								  ? "<a x-href='" + value.link + "' x-exposure='0'>" + value.title + "</a>"
 								  : ( value.text != "" ) ? value.text : ""
 								  ;
 						
 						if( ele != "" )$( "#bullet-list" ).append( "<div class='item'>" + ele + "</div>" );
 						
 					} );
-					
+
+            // --> Routine identica in global.js per i nuovi elementi
+                    
+					$( "#bullet-list .item a[x-exposure]" ).not( ".exposed" ).on( "click", function( ev ){
+                
+                        chrome.tabs.create( {
+
+                             url : $( this ).attr( "x-href" ) + ""
+
+                            ,active : false
+
+                        } );
+
+                        ev.stopPropagation();
+
+                        return false;
+
+                    } ).addClass( "exposed" );
+                    
 					_cursorToExplore();
 					
 					_toNormalExplore();
