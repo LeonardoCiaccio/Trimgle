@@ -29,8 +29,6 @@ var
 
 				,message: chrome.i18n.getMessage( "mex_not_news" )
 
-				,requireInteraction : false
-
 			}, function( notificationId ){
 
 			// --> TODO
@@ -74,8 +72,6 @@ var
 				,title	: chrome.i18n.getMessage( "title_not_review" )
 
 				,message: chrome.i18n.getMessage( "mex_not_review" )
-
-				,requireInteraction : false
 
 			}, function( notificationId ){
 
