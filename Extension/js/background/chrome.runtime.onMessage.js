@@ -21,7 +21,7 @@
 		}
 		
 		,newitem : function( request, sender, sendResponse ){
-			
+		
 			var proto = $.Trimgle.itemProtoCollection();
 			
 			if( !sender.tab.url.match( /^http/ ) ){
