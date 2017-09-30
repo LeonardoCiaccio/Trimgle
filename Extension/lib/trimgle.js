@@ -807,35 +807,55 @@
 					
 					_lol( "Avvio il listener " + listener.interval );
 					
-					var workjob = function(){
-															
-						_lol( "Eseguo il listener " + listener.interval );
+					var workjob = function( thitable, next ){
 						
 					// --> Devo farmi un giro per il database e avviare i job
 						
-						var 
-							thitable = db.getTable( tables.elements ) || []
-						;
+						thitable = thitable || db.getTable( tables.elements );
 						
-						$.each( thitable, function( index, item ){
-														
-							if( listener.interval === item.interval ){
+                        next = next || 0;
+                        
+                        if( !thitable || thitable.length < 1 || next == thitable.length ){
+                            
+                            _lol( "Ciclo workjob finito per " + listener.interval );
+                            
+                            return false;
+                            
+                        }
+                        
+                        _lol( "Controllo se ci sono items per : " + listener.interval );
+                        
+                        var item = thitable[ next ];
+                        
+						if( listener.interval === item.interval ){
 								
-								_lol( "Eseguo il _elementJob per " + item.addeded );
-								
-								setTimeout( function(){
-									
-									_elementJob( item, true, null, null, function(){
-																				
-										if( index + 1 == thitable.length )_onPayAttention();
-																			
-									} );
-									
-								},1000 );
-							
-							}
-							
-						} );
+                            _lol( "Eseguo '_elementJob' per " + next + " / " + listener.interval );
+
+                            setTimeout( function(){
+
+                                _elementJob( item, true, null, null, function(){
+
+                                _lol( "Terminato '_elementJob' per " + next + " / " + listener.interval );
+                                    
+                                    if( next + 1 == thitable.length )_onPayAttention();
+
+                                } );
+                                
+                        // --> Aspetto un po per continuare
+                                
+                                setTimeout( function(){
+                                    
+                                    workjob( thitable, next + 1 );
+                                    
+                                } , 3000 );
+
+                            },100 );
+
+                        }else{
+                            
+                            workjob( thitable, next + 1 );
+                            
+                        }
 												
 					};
 					
