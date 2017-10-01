@@ -1,0 +1,507 @@
+{
+    
+    "this_lang" : {
+	
+        "message" : "de_DE"
+
+    }
+
+    ,"name" : {
+
+        "message" : "Trimgle"
+
+    }
+
+    ,"des" : {
+
+        "message" : "Überwache die Webseite und JSON und erhalte Informationen über die Änderungen"
+
+    }
+
+    ,"menu_monitor_page" : {
+
+        "message" : "Überwache die ganze Seite"
+
+    }
+
+    ,"all_contents" : {
+
+        "message" : "SEITE"
+
+    }
+
+    ,"all_contents_sub" : {
+
+        "message" : "kein spezielles Element"
+
+    }
+
+    ,"one_content" : {
+
+        "message" : "ELEMENT"
+
+    }
+
+    ,"one_content_sub" : {
+
+        "message" : "speziell, zielgerichtet"
+
+    }
+
+    ,"collection_content" : {
+
+        "message" : "ZUSAMMENFASSUNG"
+
+    }
+
+    ,"collection_content_sub" : {
+
+        "message" : "sammelt Informationen"
+
+    }
+
+    ,"home" : {
+
+        "message" : "Home"
+
+    }
+
+    ,"about" : {
+
+        "message" : "Informationen"
+
+    }
+
+    ,"options" : {
+
+        "message" : "Optionen"
+
+    }
+
+    ,"page" : {
+
+        "message" : "Seite"
+
+    }
+
+    ,"edit" : {
+
+        "message" : "verändere"
+
+    }
+
+    ,"contact" : {
+
+        "message" : "Kontakte"
+
+    }
+
+    ,"official_page" : {
+
+        "message" : "Offizielle Seite"
+
+    }
+
+    ,"disclaimer" : {
+
+        "message" : "Disclaimer"
+
+    }
+
+    ,"disclaimer_sub" : {
+
+        "message" : "Nutzungsbedingungen, Datenschutzrichtlinien und Credits"
+
+    }
+
+    ,"share" : {
+
+        "message" : "Teile"
+
+    }
+
+    ,"anon_stats" : {
+
+        "message" : "Erlaube, anonyme Daten zu senden, um Trimgle zu verbessern."
+
+    }
+
+    ,"search" : {
+
+        "message" : "Suche"
+
+    }
+
+    ,"search_sub" : {
+
+        "message" : "in allen Kategorien"
+
+    }
+
+    ,"title" : {
+
+        "message" : "Titel"
+
+    }
+
+    ,"description" : {
+
+        "message" : "Beschreibung"
+
+    }
+
+    ,"check_every" : {
+
+        "message" : "Überprüfe alle :"
+
+    }
+
+    ,"time_5m" : {
+
+        "message" : "5m"
+
+    }
+
+    ,"time_15m" : {
+
+        "message" : "15m"
+
+    }
+
+    ,"time_30m" : {
+
+        "message" : "30m"
+
+    }
+
+    ,"time_1h" : {
+
+        "message" : "1h"
+
+    }
+
+    ,"level_check" : {
+
+        "message" : "Änderungen :"
+
+    }
+
+    ,"level_0" : {
+
+        "message" : "Jede/jeder"
+
+    }
+
+    ,"level_10" : {
+
+        "message" : "Min. ( >10% )"
+
+    }
+
+    ,"level_30" : {
+
+        "message" : "Mittl. ( >30% )"
+
+    }
+
+    ,"level_50" : {
+
+        "message" : "Hoch ( >50% )"
+
+    }
+
+    ,"ping_webhook" : {
+
+        "message" : "Webhook"
+
+    }
+
+    ,"webhook_p1" : {
+
+        "message" : "Sende einen Ping zu einer beliebigen Webseite und automatisiere einige Informationen, dazu können folgende Marker verwendet werden :"
+
+    }
+
+    ,"webhook_p2" : {
+
+        "message" : "{%l} der Link, {%t} Titel des Links"
+
+    }
+
+    ,"webhook_p3" : {
+
+        "message" : "{%p} wenn nur ein Teil des Textes überwacht werden soll"
+
+    }
+
+    ,"webhook_p4" : {
+
+        "message" : "Wenn ein Link überwacht werden soll (oder eine Reihe von Links) kann eine Adresse dieses Typs eingefügt werden :"
+
+    }
+
+    ,"webhook_p5" : {
+
+        "message" : "http://meine Webseite.meine Domain/?link={%l}&titolo={%t}"
+
+    }
+
+    ,"webhook_p6" : {
+
+        "message" : "http://meine Webseite.meine Domain/?post={%p}"
+
+    }
+
+    ,"webhook_p7" : {
+
+        "message" : "Der Ping wird für jeden eingefügten Link (einer pro Zeile) und für jedes neue überwachte Element gesendet"
+
+    }
+
+    ,"explore" : {
+
+        "message" : "Untersuche"
+
+    }
+
+    ,"connection_error" : {
+
+        "message" : "Verbindungsfehler"
+
+    }
+
+    ,"no_signature" : {
+
+        "message" : "Konnte keine Marker finden; d. i. üblich, wenn eine Suchmaschine überwacht wird oder es könnte durch Cloudflare ( codice 503 ) geschützt sein"
+
+    }
+
+    ,"no_update" : {
+
+        "message" : "Konnte die Datenbank nicht aktualisieren"
+
+    }
+
+    ,"no_results" : {
+
+        "message" : "Habe die Marker, aber nicht die Resultate"
+
+    }
+
+    ,"new_link" : {
+
+        "message" : "eindeutiger Link"
+
+    }
+
+    ,"new_link_collection" : {
+
+        "message" : "allgemeiner Link"
+
+    }
+
+    ,"new_text" : {
+
+        "message" : "eindeutiger Text"
+
+    }
+
+    ,"new_text_collection" : {
+
+        "message" : "allgemeiner Text"
+
+    }
+
+    ,"item_add" : {
+
+        "message" : "Korrekt zu Trimgle hinzugefügt"
+
+    }
+
+    ,"item_not_add" : {
+
+        "message" : "Probleme, aktualisiere die Seite und versuche es nochmals!"
+
+    }
+
+    ,"no_http" : {
+
+        "message" : "Im Moment sind wir nur in der Lage, 'http' - Adressen zu überwachen. Wir arbeiten daran, dies auf weitere Protokolle auszuweiten."
+
+    }
+
+    ,"info_link" : {
+
+        "message" : "Mouseover den Link, der überwacht werden soll, nur gültige Links können überwacht werden."
+
+    }
+
+    ,"info_text" : {
+
+        "message" : "Mouseover den Text, der überwacht werden soll"
+
+    }
+
+    ,"info_json" : {
+
+        "message" : "Mouseover das Element, das überwacht werden soll"
+
+    }
+
+    ,"problem_inact" : {
+
+        "message" : "Unerwarteter Fehler"
+
+    }
+
+    ,"ask_sure" : {
+
+        "message" : "Doppelklick, um zu entfernen!"
+
+    }
+
+    ,"title_not_news" : {
+
+        "message" : "Updates"
+
+    }
+
+    ,"mex_not_news" : {
+
+        "message" : "Neue Updates"
+
+    }
+
+    ,"title_not_review" : {
+
+        "message" : "Probleme"
+
+    }
+
+    ,"mex_not_review" : {
+
+        "message" : "Es gibt Probleme, überprüfe die Angaben"
+
+    }
+
+    ,"no_link" : {
+
+        "message" : "Der Link dieser Seite hat ein Problem :"
+
+    }
+
+    ,"no_exe_link" : {
+
+        "message" : "Du befindest dich bereits im 'Text-Modus', wenn die 'Links' überprüft werden sollen, aktualisiere die Seite und führe den Befehl nochmals aus"
+
+    }
+
+    ,"no_exe_text" : {
+
+        "message" : "Du befindest dich bereits im 'Link-Modus', wenn du den 'Text' überprüfen willst, aktualisiere die Seite und führe den Befehl nochmals aus"
+
+    }
+
+    ,"no_exe" : {
+
+        "message" : "Aktualisiere die Seite, damit du den Befehl ausführen kannst, da du bereits vorher eine Überprüfung gestartet hast!"
+
+    }
+
+    ,"every" : {
+
+        "message" : "Jede/jeder"
+
+    }
+
+    ,"problems" : {
+
+        "message" : "Probleme"
+
+    }
+
+    ,"updates" : {
+
+        "message" : "Updates"
+
+    }
+
+    ,"no_context" : {
+
+        "message" : "Auf dieser Seite kann Trimgle nicht ausgeführt werden"
+
+    }
+
+    ,"not_good" : {
+
+        "message" : "Diese Seite ist für Trimgle nicht geeignet"
+
+    }
+
+    ,"popup_news" : {
+
+        "message" : "Es gibt"
+
+    }
+
+    ,"news" : {
+
+        "message" : "News"
+
+    }
+
+    ,"no_jobs" : {
+
+        "message" : "füge neue Seiten hinzu"
+
+    }
+
+    ,"load_this_content" : {
+
+        "message" : "Die Seite wird vorbereitet, bitte warten..."
+
+    }
+
+    ,"json" : {
+
+        "message" : "JSON"
+
+    }
+
+    ,"expert_prompt" : {
+
+        "message" : "Füge den jQuery Selektor für diese Seite ein, z. B.  :\r\nhtml > div > div > a.myclass"
+
+    }
+
+    ,"no_selector" : {
+
+        "message" : "Der eingefügte Selektor jQuery erzielt keine Ergebnisse, steige aus!"
+
+    }
+
+    ,"expert" : {
+
+        "message" : "Experte"
+
+    }
+
+    ,"cache" : {
+
+        "message" : "Cache"
+
+    }
+
+    ,"good_cache" : {
+
+        "message" : "'Cache' ist für diese Sitzung aktiviert!"
+
+    }
+
+    ,"source_code" : {
+
+        "message" : "Quellcode"
+        
+    }
+		
+} 
